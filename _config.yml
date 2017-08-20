@@ -16,7 +16,10 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-gems : [jekyll-paginate]
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
 paginate: 5
 paginate_path: "page:num"
@@ -27,3 +30,10 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
